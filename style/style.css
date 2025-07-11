@@ -328,8 +328,68 @@ main{
         text-align: center;
     }
 
+
+
+/* ************ User Information   ********** */
+
     .userInfo{
         width: 1140px;
         height: 632px;
         margin: 0px auto;
+        display: flex;
+        align-items: center;
     }
+
+    .user-title{
+        font-size:97px;
+        font-weight: bold;
+    }
+
+    .form{
+        width: 497px;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form label{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .form input{
+        margin-bottom: 10px;
+        height: 70px;
+        width: 497px;
+        border-radius: 10px;
+        padding: 32px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        outline:none;
+    }
+    
+
+    .form textarea{
+        width: 497px;
+        height: 167px;
+        margin-bottom: 19px;
+        padding: 32px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+    .touchBtn{
+        width: 497px;
+        height: 62px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #4E47FF;
+        border-radius: 10px;
+        border: none;
+    }
+
+
+    
