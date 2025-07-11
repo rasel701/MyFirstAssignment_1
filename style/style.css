@@ -6,6 +6,28 @@
 
 
 
+.text-color-normal{
+    color: rgba(37,36,50,.5);
+    font-weight: 100;
+}
+
+
+
+/* font style */
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 
 
@@ -34,8 +56,9 @@ nav{
     
 }
 .logo{
-    font-size: 34px;
     color: #4E47FF;
+    font-size: 34px;
+
 }
 .SignUpBtn{
     width: 132px;
@@ -50,7 +73,7 @@ nav{
 
 .heroAreaText{
     text-align: center;
-    margin: 309px 267px 237px;
+    margin: 209px 267px 237px;
 }
 
 .heroTitle{
@@ -74,3 +97,136 @@ nav{
     background-color: aquamarine;
     color: black;
 }
+
+
+/* action style */
+
+/* 
+.action{
+    width: 1140px;
+    height: 328px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.action-text{
+    width: 517px;
+    height: 203px;
+    margin: 62px 0;
+    border: 1px solid black;
+    
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-description{
+    margin: 25px 0;
+    font-size: 24px;
+} */
+
+
+    .action-section {
+        width: 1140px;
+        height: 328px;
+        margin: 115px auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    .action-text {
+    flex: 1;
+    }
+
+
+
+
+    .action-text h3 {
+      font-size: 42px;
+      color: #1c1e21;
+      margin-bottom: 23px;
+      font-weight: bold;
+    }
+
+    .action-text p {
+      font-size: 24px;
+      color: #6b6f76;
+      margin-bottom: 23px;
+      max-width: 517px;
+    }
+
+    .action-text button {
+      width: 229px;
+      height: 48px;
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .action-text button:hover {
+      background-color: #4338ca;
+    }
+
+    .action-image {
+      flex:1;
+      text-align: right;
+    }
+
+    .action-image img {
+      border-radius: 48px;
+      
+    }
+
+    /* production style */
+
+
+    .production {
+      background-color: #eef0ff;
+      border-radius: 20px;
+        width:1140px;
+        height: 328px;
+        margin: 127px auto;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .production h2 {
+      font-size: 38px;
+      color: #252432;
+      font-weight:bold;
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .stat-box{
+        flex:1;
+    }
+
+    .stat-box h1{
+        font-size: 80px;
+        font-weight: bold;
+        color: #4E47FF;
+    }
+
+    .stat-box p{
+        color: #6b6f76;
+        font-size: 20px;
+    }
