@@ -6,10 +6,7 @@
 
 
 
-.text-color-normal{
-    color: rgba(37,36,50,.5);
-    font-weight: 100;
-}
+
 
 
 
@@ -35,9 +32,7 @@
 
 
 
-.backgrounColor{
-        background-color: #4E47FF;
-}
+
 
 .header{
     overflow: hidden;
@@ -47,11 +42,12 @@
 }
 
 nav{
+    width: 1140px;
+    margin: 0px auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
-    
+    height: 151px;
+    align-items: center;
 }
 .logo{
     color: #4E47FF;
@@ -67,11 +63,14 @@ nav{
     color: #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #4E47FF;
 }
+
+
 
 .heroAreaText{
     text-align: center;
-    margin: 209px 267px 237px;
+    margin: 158px 267px 237px;
 }
 
 .heroTitle{
@@ -81,7 +80,7 @@ nav{
 
 .stayBtn{
     width: 174px;
-    height: 40px;
+    height: 48px;
     font-size:16px;
     font-weight: bold;
     color: white;
@@ -89,6 +88,7 @@ nav{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    background-color: #4E47FF;
 }
 
 .stayBtn:hover{
@@ -391,5 +391,44 @@ main{
         border: none;
     }
 
+
+    /* footer style */
+
+    .footer{
+        width: 1440px;
+        height: 428px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-title{
+        font-size: 100px;
+        color:#4E47FF;
+    }
+    .footer p{
+        width: 531px;
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        color: #8987A1;
+    }
+
+    .footer  ul{
+        display: flex;
+        justify-content: space-around;
+        gap:48px;
+        margin-top: 20px;
+    }
+
+    .footer li{
+        list-style: none;
+    }
+    .footer li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #8987A1;
+    }
 
     
