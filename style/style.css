@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
 /* font style */
 
 
@@ -26,13 +20,15 @@
   font-style: normal;
 }
 
+/* section body color */
+
 .backgroun-color{
     background-color: #F5F8FF;
 }
 
 
 
-
+/* header style */
 
 .header{
     overflow: hidden;
@@ -52,7 +48,6 @@ nav{
 .logo{
     color: #4E47FF;
     font-size: 34px;
-
 }
 .SignUpBtn{
     width: 132px;
@@ -65,19 +60,18 @@ nav{
     cursor: pointer;
     background-color: #4E47FF;
 }
-
-
+.SignUpBtn:hover{
+    opacity: .4;
+}
 
 .heroAreaText{
     text-align: center;
     margin: 158px 267px 237px;
 }
-
 .heroTitle{
     font-size: 65px;
     font-weight: bold;
 }
-
 .stayBtn{
     width: 174px;
     height: 48px;
@@ -90,40 +84,30 @@ nav{
     cursor: pointer;
     background-color: #4E47FF;
 }
-
 .stayBtn:hover{
     background-color: aquamarine;
     color: black;
 }
 
-
-
-
 /* action style */
-
 
 main{
     overflow: hidden;
 }
-
-
-
-    .action-section {
-        width: 1140px;
-        height: 328px;
-        margin: 115px auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+.action-section {
+    width: 1140px;
+    height: 328px;
+    margin: 115px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     }
 
-    .action-text {
+ .action-text {
     flex: 1;
     }
-
-
-    .action-text h3 {
+.action-text h3 {
       font-size: 42px;
       color: #1c1e21;
       margin-bottom: 23px;
@@ -168,14 +152,13 @@ main{
 
 
     .production {
-      background-color: #d7dce6;
-      /* background-color: #4E47FF; */
-      border-radius: 20px;
-        width:1140px;
-        height: 328px;
-        margin: 127px auto;
-      text-align: center;
-      overflow: hidden;
+    background-color: #d7dce6;
+    border-radius: 20px;
+    width:1140px;
+    height: 328px;
+    margin: 127px auto;
+    text-align: center;
+    overflow: hidden;
     }
 
     .production h2 {
@@ -240,7 +223,7 @@ main{
         border-radius: 14px;
     }
 
-        .review-container-box:hover {
+    .review-container-box:hover {
       transform: translateY(-5px);
     }
 
@@ -314,6 +297,9 @@ main{
         background-color: #4E47FF;
         border: none;
         border-radius: 10px;
+    }
+    .focus-promo button:hover{
+        background-color: violet;
     }
 
     .focus-promo img{
@@ -389,8 +375,12 @@ main{
         background-color: #4E47FF;
         border-radius: 10px;
         border: none;
+        color: #FFFFFF;
     }
 
+    .touchBtn:hover{
+        border: 3px solid tomato;
+    }
 
     /* footer style */
 
